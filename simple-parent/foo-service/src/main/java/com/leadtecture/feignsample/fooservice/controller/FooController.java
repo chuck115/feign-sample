@@ -17,7 +17,7 @@ public class FooController {
     @GetMapping("/hello")
     public String hello() {
 
-        String res = barClient.Hello();
+        String res = barClient.hello();
 
         return "foo" + res;
     }
